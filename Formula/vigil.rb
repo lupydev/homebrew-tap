@@ -13,7 +13,6 @@ class Vigil < Formula
   # requires the Command Line Tools, which provide the Swift toolchain, so this
   # adds no prerequisite a Homebrew user does not already have.
   depends_on macos: :sonoma
-  depends_on :macos
 
   def install
     # SwiftPM's sandbox collides with Homebrew's own.
