@@ -4,15 +4,18 @@ Homebrew formulae for [lupydev](https://github.com/lupydev) projects.
 
 ## Install
 
-```bash
-brew tap lupydev/tap
-brew install vigil
-```
-
-Or in one line:
+Needs [Homebrew](https://brew.sh) — macOS does not ship it. If `brew --version`
+prints nothing, install that first.
 
 ```bash
 brew install lupydev/tap/vigil
+```
+
+Or tap once and install by short name afterwards:
+
+```bash
+brew tap lupydev/tap
+brew install vigil
 ```
 
 ## Formulae
